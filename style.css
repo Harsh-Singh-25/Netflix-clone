@@ -1,0 +1,221 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   background-color: black;
+}
+.main{
+   background-image: url("assets/Images/netflix-background-246844-2224740-3441109.png");
+   height: 100vh;
+   background-size: max(1000px , 100vw);
+   background-position: center center;
+   background-repeat: no-repeat;
+   position: relative;
+}
+.main .box{
+   height: 100vh;
+   width: 100%;
+   opacity: 0.6;
+   position: absolute;
+   top: 0;
+   background-color: black;
+
+} 
+nav{
+   max-width: 150vh;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+}
+nav img{
+   color: #c00f0fe3;
+   height: 144px;
+   width: 233px;
+   position: relative;
+   z-index: 38;
+}
+.hero{
+   height: calc(100% - 100px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+   position: relative;
+   padding: 0 30px;
+  
+}
+.hero> :first-child{
+   font-size: 65px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 900;
+   font-style: normal;
+}
+.hero> :nth-child(2){
+   font-size: 30px;
+   font-weight: 500;
+   font-style: normal;
+   line-height: normal;
+   margin: 10px;
+}
+.hero> :nth-child(3){
+   font-size: 20px;
+   font-weight: 500;
+   font-style: normal;
+   line-height: normal;
+   margin: 15px;
+}
+.separation{
+   height: 3px;
+   background-color: rgb(74, 72, 72);
+}
+.btn{
+   padding: 10px 20px;
+   font-weight: bold;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+   color: white;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+   }
+.btn-red-sm{
+   padding: 10px 20px;
+   background-color: rgba(236, 8, 8, 0.905); 
+   color: white;
+   font-weight: bold;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+   position: relative;
+
+}
+.btn-red{
+   font-style: normal;
+   font-Weight:800;
+   color: #eceaea;
+   background-color:rgb(255, 0, 0);
+   Size: 35px;
+   line-height: 24px;
+
+}
+
+.btn:hover {
+   background-color: #e12626;
+}
+.input-class{
+   padding: 10px;
+   border-color: rgb(108, 105, 105);
+   border-radius: 2px;
+   width: 300px;
+   color: white;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+}
+
+.first{
+   display: flex;
+   justify-content: center;
+   max-width: 60vw;
+   margin: auto;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.secImg{
+   position: relative;
+}
+.secImg img{
+   width: 34vw;
+   position: relative;
+   z-index: 10;
+}
+.secImg video{
+   position: absolute;
+   top: 135px;
+   right: 86px;
+}
+section.first>div {
+   display: flex;
+   flex-direction: column;
+   padding: 34px 0;
+}
+
+section.first> div :nth-child(1){
+   font-size: 48px;
+   font-weight: bolder;
+}
+section.first>div :nth-child(2) {
+   font-size: 24px;
+}
+.faq h2{
+   text-align: center;
+   font-size: 58px;
+   padding: 30px;
+   
+}
+.faq{
+   background-color: black;
+   color: white;
+}
+
+.faqbox {
+   display: flex;
+   transition: all 1s ease-out;
+   font-size: 25px;
+   background-color: #2d2d2d;
+   color: white;
+   padding: 15px;
+   border-radius: 15px;
+   border: 2px white;
+   margin: 1.5% 17%;
+   justify-content: space-between;
+   
+}
+.faqbox:hover {
+   background-color: #414141;
+   color: white;
+}
+
+.faqbox svg {
+   filter: invert(1);
+}
+
+footer{
+   color: white;
+   max-width: 60vw;
+    margin: auto; 
+    
+   
+
+}
+footer .question{
+   padding: 34px 0;
+   font-size: 25px;
+}
+.footer a{
+   font-size: 20px;
+   color: white;
+}
+.footer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   color: white;
+   padding: 35px;
+   gap: 25px;
+   
+   
+}
+.footer-item{
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   gap: 25px
+
+}
